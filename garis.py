@@ -63,6 +63,7 @@ else:
         titikX.append(x-1)
         titikY.append(kordinatY)
       i+=1
+      
     plt.plot(titikX,titikY)
     plt.scatter(titikX,titikY)
     plt.grid()
